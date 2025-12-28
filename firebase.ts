@@ -12,7 +12,8 @@ const firebaseConfig = {
   storageBucket: "dec2025-96ecd.firebasestorage.app",
   messagingSenderId: "617035489092",
   appId: "1:617035489092:web:cf470004dfcb97e41cc111",
-  databaseURL: "https://dec2025-96ecd-default-rtdb.firebaseio.com" // Inferring RTDB URL from projectId as it wasn't provided but is used in code
+  // 👇 FIXED: Singapore Location URL (Isse connection sahi ho jayega)
+  databaseURL: "https://dec2025-96ecd-default-rtdb.asia-southeast1.firebasedatabase.app"
 };
 
 // Initialize Firebase
